@@ -43,8 +43,8 @@ public class TicketBookingManagementAppApplication implements CommandLineRunner
 	{
 		Ticket ticket=new Ticket();
 		ticket.setBookingDate(new Date());
-		ticket.setDestStation("Mumbai");
-		ticket.setSourceStation("Pune");
+		ticket.setDestStation("Pune");
+		ticket.setSourceStation("Mumbai");
 		ticket.setPassangerName("Aadhavan");
 		ticket.setEmail("Aadhavan@gmail.com");
 		ticketBookingService.createTicket(ticket);
