@@ -47,7 +47,7 @@ public class TicketBookingManagementAppApplication implements CommandLineRunner
 		ticket.setSourceStation("Mumbai");
 		ticket.setPassangerName("Aadhavan");
 		ticket.setEmail("Aadhavan@gmail.com");
-		ticketBookingService.createTicket(ticket);
+		ticketBookingService.getTicket(ticket);
 		System.out.println("DataSource: "+dataSource);
 	}
 
