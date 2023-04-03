@@ -45,7 +45,7 @@ public class TicketBookingManagementAppApplication implements CommandLineRunner
 		ticket.setPassangerName("Aadhavan");
 		ticket.setEmail("Aadhavan@gmail.com");
 		ticketBookingService.createTicket(ticket);*/
-		logger.info("Application executed");
+		logger.info("Application executed now");
 		SpringApplication.run(TicketBookingManagementAppApplication.class, args);
 		}
 	
