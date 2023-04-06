@@ -1,4 +1,2 @@
-FROM azul/zulu-openjdk:11
-VOLUME /tmp 
-COPY target/ticketbookingmanagementapp.jar ticketbookingmanagementapp.jar 
-ENTRYPOINT ["java","-jar","/ticketbookingmanagementapp.jar"]
+FROM alpine
+CMD ["/bin/sh", "-c", "echo 'hello world'"]
