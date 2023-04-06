@@ -1,3 +1,3 @@
-FROM alpine/git 
-COPY target/ticketbookingmanagementapp.jar ticketbookingmanagementapp.jar 
-CMD ["java","-jar","/ticketbookingmanagementapp.jar"]
+FROM alpine:3.5
+RUN apk update
+RUN apk add git
