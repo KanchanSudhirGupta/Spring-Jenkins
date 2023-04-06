@@ -1,3 +1,4 @@
-FROM docker/getting-started:latest  
+FROM azul/zulu-openjdk:11
+VOLUME /tmp 
 COPY target/ticketbookingmanagementapp.jar ticketbookingmanagementapp.jar 
-CMD ["java","-jar","/ticketbookingmanagementapp.jar"]
+ENTRYPOINT ["java","-jar","/ticketbookingmanagementapp.jar"]
