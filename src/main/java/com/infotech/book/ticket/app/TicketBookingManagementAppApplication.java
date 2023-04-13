@@ -35,7 +35,7 @@ public class TicketBookingManagementAppApplication implements CommandLineRunner
 		logger.info("Application");
 	}
 	public static void main(String[] args) {
-		/*ConfigurableApplicationContext applicationContext= SpringApplication.run(TicketBookingManagementAppApplication.class, args);
+		ConfigurableApplicationContext applicationContext= SpringApplication.run(TicketBookingManagementAppApplication.class, args);
 		TicketBookingService ticketBookingService=applicationContext.getBean("ticketBookingService",TicketBookingService.class);
 		
 		Ticket ticket=new Ticket();
@@ -44,9 +44,9 @@ public class TicketBookingManagementAppApplication implements CommandLineRunner
 		ticket.setSourceStation("Pune");
 		ticket.setPassangerName("Aadhavan");
 		ticket.setEmail("Aadhavan@gmail.com");
-		ticketBookingService.createTicket(ticket);*/
+		ticketBookingService.createTicket(ticket);
 		logger.info("Application executed now");
-		SpringApplication.run(TicketBookingManagementAppApplication.class, args);
+		//SpringApplication.run(TicketBookingManagementAppApplication.class, args);
 		}
 	
 	@Override
