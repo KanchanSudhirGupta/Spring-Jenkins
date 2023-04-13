@@ -19,6 +19,13 @@ public class TicketBookingController {
 
 	@Autowired
 	private TicketBookingService ticketBookingService;
+	
+	@GetMapping(value="/hello")
+	public String helloString()
+	{
+		return "Hello All";
+	}
+	
 	@PostMapping(value="/create")
 	//RequestBody converts JSON data to java object
 	public Ticket createTicket(@RequestBody Ticket ticket)
