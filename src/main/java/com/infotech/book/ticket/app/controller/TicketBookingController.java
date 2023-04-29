@@ -23,7 +23,7 @@ public class TicketBookingController {
 	@GetMapping(value="/hello")
 	public String helloString()
 	{
-		return "Hello All";
+		return "Hello";
 	}
 	
 	@PostMapping(value="/create")

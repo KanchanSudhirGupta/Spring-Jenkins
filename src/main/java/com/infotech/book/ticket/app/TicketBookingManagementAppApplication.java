@@ -32,7 +32,7 @@ public class TicketBookingManagementAppApplication implements CommandLineRunner
 	public void init()
 	{
 		logger.info("Application started");
-		logger.info("Application");
+		logger.info("Application start");
 	}
 	public static void main(String[] args) {
 		ConfigurableApplicationContext applicationContext= SpringApplication.run(TicketBookingManagementAppApplication.class, args);
